@@ -1,0 +1,57 @@
+{   
+    "search" : {
+        "resource": "https://www.documentcloud.org/api/search.json"
+      , "method": "get"
+    }
+  ,
+    "upload" : {
+        "resource": "https://www.documentcloud.org/api/upload.json"
+      , "method": "put"
+      , "required": ["file", "title"]
+    }
+  ,
+    "getMetadata" : {
+        "resource": "https://www.documentcloud.org/api/documents/:id.json"
+      , "method": "get"
+      , "required": ["id"]
+    }
+  ,
+    "setMetadata" : {
+        "resource": "https://www.documentcloud.org/api/documents/:id.json"
+      , "method": "put"
+      , "required": ["id"]
+    }
+  ,
+    "delete" : {
+        "resource": "https://www.documentcloud.org/api/documents/:id.json"
+      , "method": "delete"
+      , "required": ["id"]
+    }
+  ,
+    "getEntities" : {
+        "resource": "https://www.documentcloud.org/api/documents/:id/entities.json"
+      , "method": "get"
+      , "required": ["id"]
+    }
+  ,
+    "getUserProjects" : {
+        "resource": "https://www.documentcloud.org/api/projects.json"
+      , "method": "get"
+    }
+  ,
+    "createUserProject" : {
+        "resource": "https://www.documentcloud.org/api/projects.json"
+      , "method": "post"
+    }
+  ,
+    "updateUserProject" : {
+        "resource": "https://www.documentcloud.org/api/projects/:id.json"
+      , "method": "put"
+    }
+  ,
+    "deleteUserProject" : {
+        "resource": "https://www.documentcloud.org/api/projects/:id.json"
+      , "method": "delete"
+      , "required": ["id"]
+    }
+}

@@ -1,0 +1,16 @@
+{ 
+    "name" : "documentcloud-client"
+  , "description" : "DocumentCloud Client library"
+  , "version" : "0.1.0"
+  , "directories" : { "lib" : "./lib" }
+  , "keywords" : ["cocument cloud","documentclud","API","client"]
+  , "main" : "index.js"
+  , "author" : "Juan Pablo Kutianski <jkutianski@gmail.com>"
+  , "dependencies" : {
+        "superagent": "0.18.x"
+    }
+  , "repository" : {
+        "type" : "git",
+        "url" : "http://github.com/jkutianski/documentcloud-client.git"
+    }
+}
