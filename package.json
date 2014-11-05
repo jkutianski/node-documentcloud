@@ -3,7 +3,7 @@
   , "description" : "DocumentCloud Client library"
   , "version" : "0.1.0"
   , "directories" : { "lib" : "./lib" }
-  , "keywords" : ["cocument cloud","documentclud","API","client"]
+  , "keywords" : ["document cloud","documentclud","API","client"]
   , "main" : "index.js"
   , "author" : "Juan Pablo Kutianski <jkutianski@gmail.com>"
   , "dependencies" : {
